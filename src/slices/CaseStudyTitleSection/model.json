@@ -1,0 +1,71 @@
+{
+  "id": "case_study_title_section",
+  "type": "SharedSlice",
+  "name": "CaseStudyTitleSection",
+  "description": "CaseStudyTitleSection",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "background_image": {
+          "type": "Image",
+          "config": {
+            "label": "Background Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "main_title": {
+          "type": "Text",
+          "config": {
+            "label": "Main Title",
+            "placeholder": ""
+          }
+        },
+        "sub_title": {
+          "type": "Text",
+          "config": {
+            "label": "Sub Title",
+            "placeholder": ""
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        }
+      },
+      "items": {
+        "tag": {
+          "type": "Select",
+          "config": {
+            "label": "Tag",
+            "placeholder": "",
+            "options": [
+              "Product Design",
+              "UI Design",
+              "Mockup Creation",
+              "Figma",
+              "Advisor/Review",
+              "User Tests",
+              "User Interviews",
+              "User Research",
+              "Logo Creation",
+              "Rapid Prototyping",
+              "Tangible Product"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

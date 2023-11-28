@@ -1,0 +1,16 @@
+{
+  "id": "section_break",
+  "type": "SharedSlice",
+  "name": "SectionBreak",
+  "description": "SectionBreak",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": ""
+    }
+  ]
+}

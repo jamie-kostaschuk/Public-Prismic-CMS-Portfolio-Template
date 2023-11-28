@@ -1,0 +1,25 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"text": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Veniam cillum sit id. Nulla aliqua esse aliquip consequat eiusmod."
+						}
+					}
+				]
+			},
+			"code": {
+				"__TYPE__": "FieldContent",
+				"value": "strike",
+				"type": "Text"
+			}
+		},
+		"items": []
+	}
+]

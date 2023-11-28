@@ -1,0 +1,60 @@
+{
+  "id": "styled_link",
+  "type": "SharedSlice",
+  "name": "CardLinks",
+  "description": "StyledLink",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {},
+      "items": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title",
+            "placeholder": ""
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "hasqr": {
+          "type": "Boolean",
+          "config": {
+            "label": "hasQR",
+            "default_value": false,
+            "placeholder_true": "true",
+            "placeholder_false": "false"
+          }
+        },
+        "cover_image": {
+          "type": "Image",
+          "config": {
+            "label": "cover Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "url": {
+          "type": "Link",
+          "config": {
+            "label": "URL",
+            "placeholder": "",
+            "select": null
+          }
+        }
+      }
+    }
+  ]
+}

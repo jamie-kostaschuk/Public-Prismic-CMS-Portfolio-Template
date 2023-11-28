@@ -1,0 +1,45 @@
+{
+  "name": "porfolio-site-with-content-from-prismic",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm:next:dev\" \"npm:slicemachine\" --names \"next,slicemachine\" --prefix-colors blue,magenta",
+    "next:dev": "next",
+    "build": "rm -rf .next/cache/fetch-cache && next build",
+    "start": "next start",
+    "lint": "next lint",
+    "slicemachine": "start-slicemachine",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.7",
+    "@prismicio/client": "^7.3.1",
+    "@prismicio/next": "^1.5.0",
+    "@prismicio/react": "^2.7.3",
+    "antd": "^5.11.4",
+    "clsx": "^2.0.0",
+    "dependencies": "^0.0.1",
+    "next": "^13.4.13",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "react-qr-code": "^2.0.12"
+  },
+  "devDependencies": {
+    "@slicemachine/adapter-next": "^0.3.27",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "autoprefixer": "^10.4.14",
+    "concurrently": "^8.2.0",
+    "eslint": "^8.46.0",
+    "eslint-config-next": "^13.4.13",
+    "eslint-plugin-react": "^7.33.2",
+    "postcss": "^8.4.27",
+    "prettier": "^3.0.1",
+    "prettier-plugin-tailwindcss": "^0.4.1",
+    "slice-machine-ui": "^1.21.1",
+    "tailwindcss": "^3.3.3"
+  }
+}

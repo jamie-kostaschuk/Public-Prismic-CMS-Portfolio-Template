@@ -1,0 +1,71 @@
+{
+  "id": "case_study_card",
+  "type": "SharedSlice",
+  "name": "CaseStudyCards",
+  "description": "CaseStudyCard",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "title",
+            "placeholder": ""
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "strong,em"
+          }
+        },
+        "type": {
+          "type": "Select",
+          "config": {
+            "label": "type",
+            "placeholder": "",
+            "options": [
+              "Professional",
+              "Personal",
+              "Educational"
+            ]
+          }
+        },
+        "cover_image": {
+          "type": "Image",
+          "config": {
+            "label": "cover image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "page_link": {
+          "type": "Link",
+          "config": {
+            "label": "page link",
+            "placeholder": "",
+            "select": null
+          }
+        }
+      }
+    }
+  ]
+}
