@@ -5,10 +5,9 @@ import { SPACINGS } from '@/styles/spacing';
 
 
 // import others 
-import { HeaderSocialIconsAndLangauge } from './_HeaderSocialIconsAndLangauge';
 import { HeaderMenuPages } from './_HeaderMenuPages';
 import { TopLink } from './_TopLink';
-
+import { HeaderLanguage } from './_HeaderLangauge';
 
 //export component
 
@@ -20,7 +19,7 @@ export function DesktopHeader ({navigation, locales = []}) {
             <TopLink  topLinkName={navigation.data.top_link_name}/>
             <HeaderMenuPages variant='desktop' navigation={navigation} />
           </div>
-            <HeaderSocialIconsAndLangauge varient={'desktop'} locales={locales}/>
+            <HeaderLanguage varient={'desktop'} locales={locales}/> 
         </div>
       </div>      
     );

@@ -12,9 +12,9 @@ import { useViewpoint } from '../../hooks_and_helper_functions/_UseViewpoint';
 
 // import nesting components
 import { HeaderMenuPages } from './_HeaderMenuPages';
-import { HeaderSocialIconsAndLangauge } from './_HeaderSocialIconsAndLangauge';
 import { COLORS } from '@/styles/colors';
 import { SPACINGS } from '@/styles/spacing';
+import { HeaderLanguage } from './_HeaderLangauge';
 
 
 // export function 
@@ -134,7 +134,7 @@ const drawerContent = {
           {/* Actual Content */}
           <div style={drawerContent}>
           <HeaderMenuPages variant='mobile' navigation={navigation} />
-          <HeaderSocialIconsAndLangauge varient={'mobile'}  locales={locales}/>
+          <HeaderLanguage varient={'mobile'} locales={locales}/> 
           </div>
           
         </div>
