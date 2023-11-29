@@ -38,6 +38,9 @@ Your dashboard will be empty to start with.
 ![Image of empty repository dashboard](/assets/images/dashboard1.png)
 
 
+  
+
+ 
 There are 2 documents you need to set for each language. 
 - Navigation
 - Home ("casestudies")
@@ -46,7 +49,9 @@ These are addable via the create button.
 
 ![Image of empty repository dashboard](/assets/images/page-addition-menu.png)
 
-
+ 
+ 
+ 
 #### Navigation
 In the Navigation file, you define what will be in your header navigation and the top page link.
 For each link you want in the header, add a link in the repeatable zone. 
@@ -60,10 +65,9 @@ To set up the home page, create a "page" type in the repository top, and set it'
 
 ![Image of empty repository dashboard](/assets/images/uid-setting.png)
 
-
-
-
-
+ 
+ 
+ 
 In this "casestudies" you can add different sections. There is a CaseStudyCards slice that can be added to create a simple case study list section. 
 
 ![Image of empty repository dashboard](/assets/images/casestudy-slice.png)
