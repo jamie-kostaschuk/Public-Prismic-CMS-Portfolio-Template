@@ -32,15 +32,19 @@ Slices will then be synced with that Prismic repository.
 
 ### Create base contents
 Go to your [Prismic Dashboard](https://prismic.io/dashboard), and open your new repository. 
-It will be empty to start with.
+You will be prompted to define the default language. Select English. 
 
+Your dashboard will be empty to start with.
 ![Image of empty repository dashboard](/assets/images/dashboard1.png)
 
 
-You will be prompted to define the default language. Select English. 
-Once defined there are 2 documents you need to set for each language. 
+There are 2 documents you need to set for each language. 
 - Navigation
 - Home ("casestudies")
+
+These are addable via the create button. 
+
+![Image of empty repository dashboard](/assets/images/page-addition-menu.png)
 
 
 #### Navigation
@@ -53,5 +57,16 @@ To create this file, create a page with the "navigation" type in the top section
 To set up the home page, create a "page" type in the repository top, and set it's uid "casestudies". 
 "uid" is a unique identifier to set a different page as home you will need to change values in the code. 
 
+
+![Image of empty repository dashboard](/assets/images/uid-setting.png)
+
+
+
+
+
 In this "casestudies" you can add different sections. There is a CaseStudyCards slice that can be added to create a simple case study list section. 
+
+![Image of empty repository dashboard](/assets/images/casestudy-slice.png)
+
+
 
