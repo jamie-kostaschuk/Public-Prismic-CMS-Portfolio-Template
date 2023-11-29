@@ -47,7 +47,7 @@ There are 2 documents you need to set for each language.
 
 These are addable via the create button. 
 
-![Image of empty repository dashboard](/assets/images/page-addition-menu.png)
+![Image of page types](/assets/images/page-addition-menu.png)
 
  
  
@@ -58,19 +58,24 @@ For each link you want in the header, add a link in the repeatable zone.
 
 To create this file, create a page with the "navigation" type in the top section for your repository. 
 
+![Image of navigation setting page](/assets/images/navigation-settings.png)
+
+
+
+
 ### Home
 To set up the home page, create a "page" type in the repository top, and set it's uid "casestudies". 
 "uid" is a unique identifier to set a different page as home you will need to change values in the code. 
 
 
-![Image of empty repository dashboard](/assets/images/uid-setting.png)
+![Image of uid setting](/assets/images/uid-setting.png)
 
  
  
  
 In this "casestudies" you can add different sections. There is a CaseStudyCards slice that can be added to create a simple case study list section. 
 
-![Image of empty repository dashboard](/assets/images/casestudy-slice.png)
+![Image of slice selection](/assets/images/casestudy-slice.png)
 
 
 
