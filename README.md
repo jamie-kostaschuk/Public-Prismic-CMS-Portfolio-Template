@@ -30,7 +30,7 @@ If this is your first time, choose "CREATE NEW", and enter in your preferred nam
 Slices will then be synced with that Prismic repository. 
 
 
-###Create base contents
+### Create base contents
 Go to your [Prismic Dashboard](https://prismic.io/dashboard), and open your new repository. 
 It will be empty to start with.
 
