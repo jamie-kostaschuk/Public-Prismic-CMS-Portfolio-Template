@@ -32,6 +32,10 @@ Slices will then be synced with that Prismic repository.
 
 ###Create base contents
 Go to your [Prismic Dashboard](https://prismic.io/dashboard), and open your new repository. 
+It will be empty to start with.
+
+![Image of empty repository dashboard](/assets/images/dashboard1.png)
+
 
 You will be prompted to define the default language. Select English. 
 Once defined there are 2 documents you need to set for each language. 
