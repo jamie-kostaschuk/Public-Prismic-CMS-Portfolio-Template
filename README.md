@@ -49,7 +49,9 @@ These are addable via the create button.
 
 ![Image of page types](/assets/images/page-addition-menu.png)
 
- 
+Since you default langauge is English, create these files. 
+to add Japanese (or a different second language), forst go to the settings and add as a locale. 
+Afterwards you will be able to make files for thr Japanese locale too. 
  
  
 #### Navigation
